@@ -56,11 +56,13 @@ git clone https://github.com/shiyishiyi/wonderfly.git
 
 yarn install or npm install
 
-then run `yarn start` to run Gulp. Your finished site will be created in a folder called `dist`, viewable at this URL:
+yarn start or npm start
+<!-- then run `yarn start` to run Gulp. Your finished site will be created in a folder called `dist`, viewable at this URL:
 
 ```
 http://localhost:8000
 ```
+-->
 
 <!-- To create compressed, production-ready assets, run `yarn run build`.
 "# wonderfly"-->
