@@ -1,0 +1,72 @@
+$hero-height: 80vh;
+$search-border-radius: 24px;
+$blue-bg-color: #2e3191;
+.hero-section {
+  background: url("https://www.wendywutours.co.uk/resource/upload/224/banner-july-alt-v2.jpg")
+    50% no-repeat;
+  background-size: cover;
+  height: $hero-height;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hero-section-text {
+    color: $white;
+    max-width: 40%;
+    h1 {
+      color: $white;
+      border: 3px solid $white;
+      padding: 3px 30px;
+      display: inline-block;
+      text-shadow: 4px 2px 5px #0a0a0a;
+      font-weight: 300;
+    }
+
+    @include breakpoint(small only) {
+      max-width: 95%;
+    }
+  }
+}
+
+//SearchBar
+.input-group-rounded {
+  margin-top: 5%;
+  .input-group-field {
+    border-radius: $search-border-radius;
+    padding-left: 1.2rem;
+    height: 51px;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    color: $medium-gray;
+    &::placeholder {
+      font-weight: 400;
+      color: $light-gray;
+      opacity: 0.5;
+    }
+
+    &:focus,
+    &:hover {
+      > &::placeholder {
+        opacity: 1;
+      }
+    }
+  }
+  .input-group-button .button {
+    margin-left: -50px;
+    border: none;
+    font-size: 1rem;
+    width: 48px;
+    color: $medium-gray;
+    margin-top: 2px;
+    background-color: white;
+    width: 4%;
+    display: -ms-grid;
+    display: grid;
+    cursor: pointer;
+    &:hover {
+      color: #8200ff;
+    }
+  }
+}

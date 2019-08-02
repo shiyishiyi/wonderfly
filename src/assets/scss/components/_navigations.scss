@@ -1,0 +1,130 @@
+$scrollhide-nav-transition-speed: 1s;
+.top-bar {
+  padding: 0.5rem 1rem;
+  .top-bar-left,
+  .top-bar-right {
+    max-width: 50%;
+  }
+}
+.top-bar,
+.top-bar ul {
+  background-color: transparent;
+}
+.logo {
+  max-width: 150px;
+  width: 150px;
+}
+.dropdown {
+  color: white;
+  font-size: 14px;
+  line-height: 1rem;
+  margin-right: 10px;
+  &.menu {
+    li {
+      list-style: none;
+      a {
+        padding-left: 0.1rem;
+        padding: 0;
+        color: white;
+        font-size: 14px;
+        line-height: 1rem;
+        background-color: transparent;
+        &:hover {
+          color: #8200ff;
+        }
+      }
+      &.is-dropdown-submenu-parent > a::after {
+        border: solid white;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 3px;
+        margin-top: -5px;
+        transform: rotate(45deg);
+        &:hover {
+          color: #8200ff;
+        }
+      }
+      &.is-dropdown-submenu-parent > a.noarrow {
+        padding-right: 0;
+        &::after {
+          border: none;
+          padding: 0;
+          margin: 0;
+        }
+      }
+      &.profile {
+        .is-dropdown-submenu {
+          width: 155px;
+          li a {
+            text-align: left;
+            .fa {
+              padding-right: 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .is-dropdown-submenu {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px 0px #000000;
+    min-width: 76px;
+    left: -45px;
+    margin-top: 10px;
+    background-color: $white;
+    li {
+      max-height: inherit;
+      border-bottom: 1px solid $super-light-gray;
+      a {
+        height: inherit;
+        margin: 1px 0;
+        padding: 10px 20px;
+        text-align: center;
+        color: $medium-gray;
+        &:hover {
+          color: #8200ff;
+        }
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+$profile-card-about-text-transform: uppercase;
+$profile-card-about-separator-width: 3rem;
+$profile-card-about-separator-thickness: 0.125rem;
+.profile-card {
+  padding: 0 1rem;
+  display: flex;
+  align-items: flex-start;
+  .profile-card-avatar {
+    margin-right: 0.5rem;
+    .avatar-image {
+      border-radius: 50%;
+      width: rem-calc(40);
+      height: rem-calc(40);
+    }
+  }
+  .profile-card-user {
+    flex: 1 0 0;
+    padding-bottom: 0;
+    .author-description {
+      margin-bottom: 0;
+      color: $white;
+      font-size: 14px;
+    }
+  }
+}
+.scrollhide-nav {
+  position: relative;
+  margin-bottom: -60px;
+  width: 100%;
+  transition: transform $scrollhide-nav-transition-speed
+    cubic-bezier(0.86, 0, 0.07, 1);
+  &.hidden {
+    transform: translateY(-100%);
+  }
+}

@@ -1,0 +1,113 @@
+@font-face {
+    font-family:'Franklin Gothic';
+    src: url('Franklin Gothic Book Italic.eot');
+	src: url('Franklin Gothic Book Italic.eot?#iefix') format('embedded-opentype'),
+		url('Franklin Gothic Book Italic.woff2') format('woff2'),
+		url('Franklin Gothic Book Italic.woff') format('woff'),
+		url('Franklin Gothic Book Italic.ttf') format('truetype'),
+		url('Franklin Gothic Book Italic.otf') format('opentype'),
+		url('Franklin Gothic Book Italic.svg#Franklin Gothic Book Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Franklin Gothic';
+    src: url('Franklin Gothic Book.eot');
+	src: url('Franklin Gothic Book.eot?#iefix') format('embedded-opentype'),
+		url('Franklin Gothic Book.woff2') format('woff2'),
+		url('Franklin Gothic Book.woff') format('woff'),
+		url('Franklin Gothic Book.ttf') format('truetype'),
+		url('Franklin Gothic Book.otf') format('opentype'),
+		url('Franklin Gothic Book.svg#Franklin Gothic Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+@font-face {
+    font-family:'Franklin Gothic';
+    src: url('Franklin Gothic Medium Italic.eot');
+	src: url('Franklin Gothic Medium Italic.eot?#iefix') format('embedded-opentype'),
+		url('Franklin Gothic Medium Italic.woff2') format('woff2'),
+		url('Franklin Gothic Medium Italic.woff') format('woff'),
+		url('Franklin Gothic Medium Italic.ttf') format('truetype'),
+		url('Franklin Gothic Medium Italic.otf') format('opentype'),
+		url('Franklin Gothic Medium Italic.svg#Franklin Gothic Medium Italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family:'Franklin Gothic';
+    src: url('Franklin Gothic Medium.eot');
+	src: url('Franklin Gothic Medium.eot?#iefix') format('embedded-opentype'),
+		url('Franklin Gothic Medium.woff2') format('woff2'),
+		url('Franklin Gothic Medium.woff') format('woff'),
+		url('Franklin Gothic Medium.ttf') format('truetype'),
+		url('Franklin Gothic Medium.otf') format('opentype'),
+		url('Franklin Gothic Medium.svg#Franklin Gothic Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-F003;
+}
+@font-face {
+    font-family:'Franklin Gothic';
+    src: url('Franklin Gothic Demi.eot');
+	src: url('Franklin Gothic Demi.eot?#iefix') format('embedded-opentype'),
+		url('Franklin Gothic Demi.woff2') format('woff2'),
+		url('Franklin Gothic Demi.woff') format('woff'),
+		url('Franklin Gothic Demi.ttf') format('truetype'),
+		url('Franklin Gothic Demi.otf') format('opentype'),
+		url('Franklin Gothic Demi.svg#Franklin Gothic Demi') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-F003;
+}
+@font-face {
+    font-family:'Franklin Gothic';
+    src: url('Franklin Gothic Demi Italic.eot');
+	src: url('Franklin Gothic Demi Italic.eot?#iefix') format('embedded-opentype'),
+		url('Franklin Gothic Demi Italic.woff2') format('woff2'),
+		url('Franklin Gothic Demi Italic.woff') format('woff'),
+		url('Franklin Gothic Demi Italic.ttf') format('truetype'),
+		url('Franklin Gothic Demi Italic.otf') format('opentype'),
+		url('Franklin Gothic Demi Italic.svg#Franklin Gothic Demi Italic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-F00A;
+}
+
+@font-face {
+    font-family:'Franklin Gothic';
+    src: url('Franklin Gothic Heavy.eot');
+	src: url('Franklin Gothic Heavy.eot?#iefix') format('embedded-opentype'),
+		url('Franklin Gothic Heavy.woff2') format('woff2'),
+		url('Franklin Gothic Heavy.woff') format('woff'),
+		url('Franklin Gothic Heavy.ttf') format('truetype'),
+		url('Franklin Gothic Heavy.otf') format('opentype'),
+		url('Franklin Gothic Heavy.svg#Franklin Gothic Heavy') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
+.book{
+    font-weight: 400;
+}
+.medium{
+    font-weight: 500
+}
+.demi{
+    font-weight: 600
+}
+.heave{
+    font-weight: 800
+}
