@@ -62,5 +62,5 @@ then run `yarn start` to run Gulp. Your finished site will be created in a folde
 http://localhost:8000
 ```
 
-To create compressed, production-ready assets, run `yarn run build`.
-"# wonderfly"
+<!-- To create compressed, production-ready assets, run `yarn run build`.
+"# wonderfly"-->
