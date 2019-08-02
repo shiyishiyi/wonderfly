@@ -1,4 +1,4 @@
-# ZURB WebApp Template
+<!-- # ZURB WebApp Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
 
@@ -40,7 +40,7 @@ foundation new --framework sites --template zurb
 
 The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
 
-Now `cd` to your project name and to start your project run 
+Now `cd` to your project name and to start your project run
 
 ```bash
 foundation watch
@@ -50,21 +50,17 @@ foundation watch
 
 To manually set up the template, first download it with Git:
 
-```bash
-git clone https://github.com/zurb/foundation-zurb-template projectname
-```
+```bash -->
 
-Then open the folder in your command line, and install the needed dependencies:
+git clone https://github.com/shiyishiyi/wonderfly.git
 
-```bash
-cd projectname
-yarn
-```
+yarn install or npm install
 
-Finally, run `yarn start` to run Gulp. Your finished site will be created in a folder called `dist`, viewable at this URL:
+then run `yarn start` to run Gulp. Your finished site will be created in a folder called `dist`, viewable at this URL:
 
 ```
 http://localhost:8000
 ```
 
 To create compressed, production-ready assets, run `yarn run build`.
+"# wonderfly"
